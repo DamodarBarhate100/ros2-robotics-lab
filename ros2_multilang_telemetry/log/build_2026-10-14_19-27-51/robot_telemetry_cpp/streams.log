@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/src/robot_telemetry_cpp -DCMAKE_INSTALL_PREFIX=/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.110s] -- The CXX compiler identification is GNU 13.3.0
+[0.126s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.566s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.597s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.695s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.697s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.789s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Configuring done (0.9s)
+[0.951s] -- Generating done (0.0s)
+[0.954s] -- Build files have been written to: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp
+[0.966s] Invoked command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/src/robot_telemetry_cpp -DCMAKE_INSTALL_PREFIX=/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp
+[0.968s] Invoking command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp -- -j16 -l16
+[1.017s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_monitor.dir/src/safety_monitor.cpp.o[0m
+[3.317s] [100%] [32m[1mLinking CXX executable safety_monitor[0m
+[3.407s] [100%] Built target safety_monitor
+[3.417s] Invoked command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp -- -j16 -l16
+[3.426s] Invoking command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp
+[3.433s] -- Install configuration: ""
+[3.433s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/lib/robot_telemetry_cpp/safety_monitor
+[3.433s] -- Set non-toolchain portion of runtime path of "/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/lib/robot_telemetry_cpp/safety_monitor" to ""
+[3.433s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/ament_index/resource_index/package_run_dependencies/robot_telemetry_cpp
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/ament_index/resource_index/parent_prefix_path/robot_telemetry_cpp
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/environment/ament_prefix_path.sh
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/environment/ament_prefix_path.dsv
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/environment/path.sh
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/environment/path.dsv
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/local_setup.bash
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/local_setup.sh
+[3.434s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/local_setup.zsh
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/local_setup.dsv
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/package.dsv
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/ament_index/resource_index/packages/robot_telemetry_cpp
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/cmake/robot_telemetry_cppConfig.cmake
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/cmake/robot_telemetry_cppConfig-version.cmake
+[3.435s] -- Installing: /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_cpp/share/robot_telemetry_cpp/package.xml
+[3.437s] Invoked command in '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py:/home/damodar-barhate/ros2_ws_lec/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_cpp

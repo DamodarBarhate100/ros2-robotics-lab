@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_telemetry_py/robot_telemetry_py.egg-info
+writing ../../build/robot_telemetry_py/robot_telemetry_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_telemetry_py/robot_telemetry_py.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_telemetry_py/robot_telemetry_py.egg-info/entry_points.txt
+writing requirements to ../../build/robot_telemetry_py/robot_telemetry_py.egg-info/requires.txt
+writing top-level names to ../../build/robot_telemetry_py/robot_telemetry_py.egg-info/top_level.txt
+writing manifest file '../../build/robot_telemetry_py/robot_telemetry_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_telemetry_py/robot_telemetry_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_telemetry_py/robot_telemetry_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib/robot_telemetry_py
+copying robot_telemetry_py/__init__.py -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib/robot_telemetry_py
+copying robot_telemetry_py/sensor_simulator.py -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib/robot_telemetry_py
+running install
+running install_lib
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py
+copying /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib/robot_telemetry_py/__init__.py -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py
+copying /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/build/lib/robot_telemetry_py/sensor_simulator.py -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py
+byte-compiling /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py/sensor_simulator.py to sensor_simulator.cpython-312.pyc
+running install_data
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/share/ament_index
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/share/ament_index/resource_index
+creating /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/share/ament_index/resource_index/packages
+copying resource/robot_telemetry_py -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/share/robot_telemetry_py
+running install_egg_info
+Copying ../../build/robot_telemetry_py/robot_telemetry_py.egg-info to /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/python3.12/site-packages/robot_telemetry_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sensor_simulator script to /home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/install/robot_telemetry_py/lib/robot_telemetry_py
+writing list of installed files to '/home/damodar-barhate/ros2-robotics-lab/ros2_multilang_telemetry/build/robot_telemetry_py/install.log'
