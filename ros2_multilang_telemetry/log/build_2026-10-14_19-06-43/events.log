@@ -1,3 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000509] (-) JobUnselected: {'identifier': 'robot_telemetry_py'}
-[0.000766] (-) EventReactorShutdown: {}

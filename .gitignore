@@ -1,12 +1,19 @@
-# ROS 2 generated files
-ros2_ws/build/
-ros2_ws/install/
-ros2_ws/log/
+# ROS 2 workspace build artifacts
+**/build/
+**/install/
+**/log/
 
-# Python generated files
-__pycache__/
-*.py[cod]
-*.egg-info/
+# Python cache files
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.pytest_cache/
 
-# Editor files
+# Virtual environments
+**/.venv/
+**/venv/
+
+# IDE and operating system files
 .vscode/
+.DS_Store
+Thumbs.db
