@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "sensor_simulator = robot_telemetry_py.sensor_simulator:main"
+            "sensor_simulator = robot_telemetry_py.sensor_simulator:main",
+            "distance_sensor = robot_telemetry_py.distance_monitor:main"
         ],
     },
 )
