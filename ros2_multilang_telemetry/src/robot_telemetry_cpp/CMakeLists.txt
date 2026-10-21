@@ -8,9 +8,10 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 add_executable(safety_monitor src/safety_monitor.cpp)
-ament_target_dependencies(safety_monitor rclcpp)
+ament_target_dependencies(safety_monitor rclcpp example_interfaces)
 
 install(TARGETS 
   safety_monitor

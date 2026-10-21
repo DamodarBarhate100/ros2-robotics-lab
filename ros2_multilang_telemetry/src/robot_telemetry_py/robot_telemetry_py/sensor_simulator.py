@@ -7,14 +7,14 @@ class sensor_simulator(Node):
     def __init__(self):
         super().__init__("sensor_simulator")
         self.publisher_ = self.create_publisher(msg_type=Float32, topic="obstacle_sensor",qos_profile=10)
-        self.timer_ = self.create_timer(1,self.publish_)
+        self.timer_ = self.create_timer(1.0,self.publish_)
         self.get_logger().info("Initializing Sensor Simulator python node")
 
     def publish_(self):
         msg = Float32()
         msg.data = 0.5
         self.publisher_.publish(msg)
-        self.get_logger().info("publishing obstacle distance: " + str(msg))
+        self.get_logger().info("publishing obstacle distance: " + str(msg.data))
         
 
 
